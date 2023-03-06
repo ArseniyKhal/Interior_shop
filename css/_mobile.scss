@@ -1,0 +1,138 @@
+@media (max-width: 767px) {
+	.center {
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+	.top {
+		background-image: url(../img/bg_top_xs.jpg);
+		padding-top: 32px;
+	}
+	.top__catalog {
+		background-image: url(../img/catalog/bg_catalog_xs.jpg);
+	}
+	.top-cart {
+		padding-top: 32px;
+		margin-bottom: 92px;
+	}
+	.header {
+		height: 57px;
+		border-bottom: none;
+		&__input {
+			display: none;
+		}
+	}
+	.menu {
+		display: none;
+		&-mob {
+			display: flex;
+			gap: 32px;
+			align-items: center;
+		}
+	}
+	.logo {
+		font-size: 1.125rem;
+		line-height: 22px;
+	}
+	.top {
+		&__content {
+			display: flex;
+			flex-direction: column;
+			text-align: center;
+		}
+		&__text {
+			font-size: 1rem;
+		}
+		&__link {
+			font-size: 0.875rem;
+		}
+	}
+	.top__title {
+		text-align: center;
+	}
+
+	.title {
+		font-size: 3rem;
+		line-height: 59px;
+	}
+	.heading {
+		font-size: 1.5rem;
+		line-height: 29px;
+	}
+	section,
+	.top:not(:last-child) {
+		margin-bottom: 32px;
+	}
+	.for {
+		gap: 16px;
+		grid-template-columns: repeat(4, 1fr);
+		&__link {
+			grid-column: 1/-1;
+		}
+		&__item {
+			font-size: 1.75rem;
+			line-height: 34px;
+			height: 375px;
+			&_big {
+				height: 244px;
+			}
+		}
+	}
+	.product {
+		&__content {
+			row-gap: 12px;
+			justify-content: center;
+		}
+		&__heading {
+			font-size: 1.125rem;
+			line-height: 22px;
+		}
+		&__price {
+			font-size: 1.125rem;
+			line-height: 22px;
+		}
+	}
+	.footer {
+		&__content {
+			flex-wrap: wrap;
+			gap: 34px;
+			justify-content: center;
+		}
+		&__info {
+			gap: 100px;
+		}
+	}
+	.catalog-nav {
+		flex-wrap: wrap;
+		gap: 16px;
+	}
+	.cart {
+		gap: 48px;
+		grid-template-columns: repeat(4, 1fr);
+		&__content {
+			grid-column: span 4;
+		}
+		&__name-box {
+			display: none;
+		}
+		&__left img {
+			display: none;
+		}
+		&__button-box {
+			gap: 14px;
+			padding-top: 0px;
+		}
+		&__button {
+			width: 166px;
+			font-size: 0.75rem;
+			line-height: 15px;
+		}
+		&__form {
+			margin: 0 auto;
+		}
+		&__form {
+			//width: 377px;
+			height: 556px;
+			//padding: 42px 28px;
+		}
+	}
+}
